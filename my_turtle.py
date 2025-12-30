@@ -1,4 +1,4 @@
-import turtle  # Import badal diya
+import turtle  
 
 t = turtle.Turtle()
 t.speed(500)  # Speed tez karne ke liye (optional)
@@ -14,4 +14,5 @@ for steps in range(200):
         t.right(60)
 
 # Ye line window ko rok ke rakhegi jab tak aap cross (X) pe click nahi karte
+
 turtle.done()
